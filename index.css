@@ -26,14 +26,17 @@ h1{
 .table thead tr{
     background-color: purple;
     color: white;
-    text-align: center;
+    text-align: left;
     font-weight: bolder;
     padding: 20px;
 }
 
+#sn{
+    text-align: center;
+}
 .table tbody tr{
     border-bottom: 1px solid rgb(245, 112, 245);
-    text-align: center;
+    text-align: left;
 }
 .table tbody tr:last-of-type{
     border-bottom: 5px double purple;
